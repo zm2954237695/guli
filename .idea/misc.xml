@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/gulidemo/guli_parent/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/gulidemo/guli_parent/common/common_util/pom.xml" />
+        <option value="$PROJECT_DIR$/gulidemo/guli_parent/common/pom.xml" />
+        <option value="$PROJECT_DIR$/gulidemo/guli_parent/common/service_base/pom.xml" />
+        <option value="$PROJECT_DIR$/gulidemo/guli_parent/service/pom.xml" />
+        <option value="$PROJECT_DIR$/gulidemo/guli_parent/service/serivec_edu/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="JDK1.8" project-jdk-type="JavaSDK" />
+</project>
