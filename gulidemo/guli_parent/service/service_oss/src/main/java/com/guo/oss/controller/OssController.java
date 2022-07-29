@@ -24,4 +24,5 @@ public class OssController {
         String url =  ossService.uploadFileAvatar(file);
         return R.success().data("url",url);
     }
+
 }

@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8332648-a9ac-4206-a346-5851d86b446c" name="变更" comment="" />
+    <list default="true" id="b8332648-a9ac-4206-a346-5851d86b446c" name="变更" comment="7">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduChapterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduVideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduChapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduCourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/subject/OneSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/subject/TwoSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/vo/CourseInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduCourseDescriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduVideoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduCourseDescriptionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduVideoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduCourseDescriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduVideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduCourseDescriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduVideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/serivec_edu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduSubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduSubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduSubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/test/java/com/guo/demo/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/test/java/com/guo/demo/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/controller/EduSubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/controller/EduSubjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/EduSubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/EduSubjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/test-classes/com/guo/demo/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/test-classes/com/guo/demo/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/controller/OssController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/controller/OssController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +56,18 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,28 +83,34 @@
     </option>
   </component>
   <component name="ProjectId" id="2CQy1PVaR9AzR1HDVYWHgsTCkX4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/gulidemo/guli_parent/service/serivec_edu/src/main/resources/mapper",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "750a29174370f66aaa46725ff07dee68"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/guli/gulidemo/guli_parent&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;76f92175239e8f1895e8750128469a4d&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\gulidemo\guli_parent\service\serivec_edu\src\main\resources\mapper" />
@@ -67,6 +124,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EduApplication">
+    <configuration name="CodeGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serivec_edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guo.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guo.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.guo.demo.CodeGenerator" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodeGenerator.main1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serivec_edu" />
       <extension name="coverage">
@@ -103,10 +175,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guo.oss.OssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.EduApplication" />
         <item itemvalue="JUnit.CodeGenerator.main1" />
+        <item itemvalue="JUnit.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -120,10 +200,68 @@
       <updated>1658748892274</updated>
       <workItem from="1658748893635" duration="5113000" />
       <workItem from="1658754926579" duration="10193000" />
+      <workItem from="1659062117814" duration="559000" />
+      <workItem from="1659062696099" duration="6614000" />
+      <workItem from="1659078227144" duration="2334000" />
+      <workItem from="1659080596745" duration="1612000" />
     </task>
+    <task id="LOCAL-00001" summary="7">
+      <created>1659062404346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659062404346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="7">
+      <created>1659062890210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659062890210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="7" />
+    <option name="LAST_COMMIT_MESSAGE" value="7" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/serivec_edu/src/test/java/com/guo/demo/CodeGenerator.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
