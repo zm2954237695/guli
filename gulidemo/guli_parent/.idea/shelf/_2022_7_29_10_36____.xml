@@ -1,0 +1,14 @@
+<changelist name="在进行更新之前于_2022_7_29_10_36_取消提交了变更_[变更]" date="1659062210959" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_7_29_10_36_取消提交了变更_[变更]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行更新之前于 2022/7/29 10:36 取消提交了变更 [变更]" />
+  <binary>
+    <option name="BEFORE_PATH" value="service/service_oss/target/classes/com/guo/oss/service/impl/OssServiceImpl.class" />
+    <option name="AFTER_PATH" value="service/service_oss/target/classes/com/guo/oss/service/impl/OssServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_7_29_10_36_取消提交了变更_[变更]/OssServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="service/service_oss/target/classes/com/guo/oss/controller/OssController.class" />
+    <option name="AFTER_PATH" value="service/service_oss/target/classes/com/guo/oss/controller/OssController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_7_29_10_36_取消提交了变更_[变更]/OssController.class" />
+  </binary>
+</changelist>
