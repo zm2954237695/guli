@@ -2,14 +2,11 @@ package com.guo.serviceedu.controller;
 
 
 import com.guo.commonutil.R;
+import com.guo.serviceedu.entity.EduChapter;
 import com.guo.serviceedu.entity.chapter.ChapterVo;
 import com.guo.serviceedu.service.EduChapterService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,6 +20,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/eduservice/chapter")
+@CrossOrigin
 public class EduChapterController {
 
     @Autowired
@@ -34,5 +32,26 @@ public class EduChapterController {
         return R.success().data("allChapterVideo",list);
     }
 
+    @PostMapping("addChapter")
+    public R addChapter(@RequestBody EduChapter eduChapter){
+        chapterService.save(eduChapter);
+        return R.success();
+    }
+
+    @GetMapping("getChapterInfo/{chapterId}")
+    public R getChapterInfo(@PathVariable String chapterId){
+        return R.success().data("chapter",chapterService.getById(chapterId));
+    }
+    @PostMapping("updateChapter")
+    public R updateChapter(@RequestBody EduChapter eduChapter){
+        chapterService.updateById(eduChapter);
+        return R.success();
+    }
+
+    @DeleteMapping("{chapterId}")
+    public R deleteChapter(@PathVariable String chapterId){
+        chapterService.deleteChapter(chapterId);
+        return R.success();
+    }
 }
 

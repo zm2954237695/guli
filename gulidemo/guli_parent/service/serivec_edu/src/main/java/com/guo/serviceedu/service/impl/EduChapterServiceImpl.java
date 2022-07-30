@@ -1,6 +1,7 @@
 package com.guo.serviceedu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.guo.servicebase.exceptionhandler.GuliException;
 import com.guo.serviceedu.entity.EduChapter;
 import com.guo.serviceedu.entity.EduVideo;
 import com.guo.serviceedu.entity.chapter.ChapterVo;
@@ -10,11 +11,9 @@ import com.guo.serviceedu.service.EduChapterService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.guo.serviceedu.service.EduVideoService;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -55,5 +54,17 @@ public class EduChapterServiceImpl extends ServiceImpl<EduChapterMapper, EduChap
             return chapterVo;
         }).collect(Collectors.toList());
         return res;
+    }
+
+    @Override
+    public boolean deleteChapter(String chapterId) {
+        QueryWrapper<EduVideo> wrapper = new QueryWrapper<>();
+        wrapper.eq("chapterId",chapterId);
+        int count  = videoService.count(wrapper);
+        if(count>0){
+            throw new GuliException(20001,"此章节有小节,不可删除");
+        }else {
+           return baseMapper.deleteById(chapterId)>0;
+        }
     }
 }

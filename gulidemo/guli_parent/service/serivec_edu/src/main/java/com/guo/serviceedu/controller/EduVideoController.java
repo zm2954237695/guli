@@ -1,9 +1,11 @@
 package com.guo.serviceedu.controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.web.bind.annotation.RestController;
+import com.guo.commonutil.R;
+import com.guo.serviceedu.entity.EduVideo;
+import com.guo.serviceedu.service.EduVideoService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * <p>
@@ -14,8 +16,24 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2022-07-29
  */
 @RestController
+@CrossOrigin
 @RequestMapping("/serviceedu/edu-video")
 public class EduVideoController {
+
+    @Autowired
+    private EduVideoService videoService;
+
+    @PostMapping("addVideo")
+    public R addVideo(@RequestBody EduVideo eduVideo){
+        videoService.save(eduVideo);
+        return R.success();
+    }
+
+    @DeleteMapping("{id}")
+    public R deleteVideo(@PathVariable  String id){
+        videoService.removeById(id);
+        return R.success();
+    }
 
 }
 
