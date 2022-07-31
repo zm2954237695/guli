@@ -5,6 +5,7 @@ package com.guo.serviceedu.service;
 import com.guo.serviceedu.entity.EduCourse;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.guo.serviceedu.entity.vo.CourseInfoVo;
+import com.guo.serviceedu.entity.vo.CoursePublishVo;
 
 /**
  * <p>
@@ -21,4 +22,8 @@ public interface EduCourseService extends IService<EduCourse> {
     CourseInfoVo getCourseInfo(String courseId);
 
     void updateCourseInfo(CourseInfoVo courseInfoVo);
+
+    CoursePublishVo getPublishCourseInfo(String id);
+
+    void deleteCourse(String courseId);
 }

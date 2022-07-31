@@ -18,6 +18,6 @@
                 LEFT JOIN edu_subject s1 ON ec.subject_parent_id = s1.id
                 LEFT JOIN edu_subject s2 ON ec.id = s2.id
         WHERE
-            ec.id = #{id}
+            ec.id = #{id
     </select>
 </mapper>
