@@ -344,7 +344,7 @@ export default {
                     type: "success",
                 });
                 // 刷新数据
-                this.getChapterVideo();
+                this.getChapter();
             });
         },
 

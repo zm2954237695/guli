@@ -10,8 +10,9 @@ export default {
     })
   },
 
+
   //删除小节
-  deleteVideo(id) {
+  removeVideo(id) {
     return request({
       url: '/eduservice/video/'+id,
       method: 'delete'

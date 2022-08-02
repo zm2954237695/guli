@@ -10,8 +10,15 @@ spring:
     url: jdbc:mysql://localhost:3306/guoli?serverTimezone=GMT%2B8
     username: root
     password: guoyibin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
 mybatis-plus:
   mapper-locations: classpath:com/guo/serviceedu/mapper/xml/*.xml
+feign:
+  hystrix:
+    enabled: true

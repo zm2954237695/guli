@@ -59,7 +59,7 @@ public class EduChapterServiceImpl extends ServiceImpl<EduChapterMapper, EduChap
     @Override
     public boolean deleteChapter(String chapterId) {
         QueryWrapper<EduVideo> wrapper = new QueryWrapper<>();
-        wrapper.eq("chapterId",chapterId);
+        wrapper.eq("chapter_id",chapterId);
         int count  = videoService.count(wrapper);
         if(count>0){
             throw new GuliException(20001,"此章节有小节,不可删除");

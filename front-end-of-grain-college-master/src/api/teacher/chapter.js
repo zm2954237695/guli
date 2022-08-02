@@ -27,7 +27,7 @@ export default{
       data: chapter
     })
   },
-  deleteChapter(chapterId){
+  removeChapter(chapterId){
     return request({
       url: '/eduservice/chapter/'+chapterId,
       method: 'delete'

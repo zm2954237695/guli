@@ -4,24 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8332648-a9ac-4206-a346-5851d86b446c" name="变更" comment="7">
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/VodApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/controller/VodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/VodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/impl/VodServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/utils/ConstantVodUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/test/java/com/guo/vodTest/AliYunVodSDKUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_vod/src/test/java/com/guo/vodTest/TestVod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/api/teacher/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/api/teacher/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/views/edu/course/chapter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/views/edu/course/chapter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b8332648-a9ac-4206-a346-5851d86b446c" name="变更" comment="8/2">
+      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/client/VodClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/utils/ConstantPropertiesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/utils/ConstantPropertiesUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_vod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/EduApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/EduApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduVideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduVideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/EduApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/EduApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/OssApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/OssApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_oss/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_oss/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/VodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/VodApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/controller/VodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/controller/VodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/VodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/VodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/impl/VodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/impl/VodServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/target/classes/com/guo/vod/VodApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/target/classes/com/guo/vod/VodApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/target/classes/com/guo/vod/controller/VodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/target/classes/com/guo/vod/controller/VodController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,6 +213,9 @@
       <workItem from="1659321582963" duration="2479000" />
       <workItem from="1659325491315" duration="11361000" />
       <workItem from="1659347786675" duration="657000" />
+      <workItem from="1659401979881" duration="163000" />
+      <workItem from="1659405801335" duration="3746000" />
+      <workItem from="1659430373799" duration="1509000" />
     </task>
     <task id="LOCAL-00001" summary="7">
       <created>1659062404346</created>
@@ -227,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659062890210</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="8/2">
+      <created>1659402022774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659402022774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="8/2">
+      <created>1659402116532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659402116532</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +277,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7" />
+    <MESSAGE value="8/2" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
