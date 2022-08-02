@@ -5,44 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8332648-a9ac-4206-a346-5851d86b446c" name="变更" comment="7">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduChapterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduCourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduVideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduChapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduCourseDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/EduVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/subject/OneSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/subject/TwoSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/vo/CourseInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduChapterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduCourseDescriptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduCourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/EduVideoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduChapterMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduCourseDescriptionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduCourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduVideoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduChapterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduCourseDescriptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduCourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduVideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduChapterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduCourseDescriptionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduCourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduVideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/VodApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/controller/VodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/VodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/service/impl/VodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/guo/vod/utils/ConstantVodUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/test/java/com/guo/vodTest/AliYunVodSDKUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/test/java/com/guo/vodTest/TestVod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/api/teacher/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/api/teacher/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/views/edu/course/chapter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-of-grain-college-master/src/views/edu/course/chapter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/serivec_edu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/EduSubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduSubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/EduSubjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/main/java/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/src/test/java/com/guo/demo/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/src/test/java/com/guo/demo/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/controller/EduSubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/controller/EduSubjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/EduSubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/EduSubjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/classes/com/guo/serviceedu/service/impl/EduSubjectServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/serivec_edu/target/test-classes/com/guo/demo/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/serivec_edu/target/test-classes/com/guo/demo/CodeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/controller/OssController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/controller/OssController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/utils/ConstantPropertiesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/guo/oss/utils/ConstantPropertiesUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_vod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_vod/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +86,8 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;76f92175239e8f1895e8750128469a4d&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9198640df712198b1e973259231668f9&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -123,18 +102,29 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EduApplication">
-    <configuration name="CodeGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serivec_edu" />
+  <component name="RunManager" selected="Spring Boot.VodApplication">
+    <configuration name="ConstantPropertiesUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guo.oss.utils.ConstantPropertiesUtils" />
+      <module name="service_oss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guo.demo.*" />
+          <option name="PATTERN" value="com.guo.oss.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.guo.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.guo.demo.CodeGenerator" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstantVodUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guo.vod.utils.ConstantVodUtils" />
+      <module name="service_vod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guo.vod.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,11 +172,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service_vod" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guo.vod.VodApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guo.vod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.VodApplication" />
         <item itemvalue="Spring Boot.EduApplication" />
+        <item itemvalue="应用程序.ConstantPropertiesUtils" />
+        <item itemvalue="应用程序.ConstantVodUtils" />
         <item itemvalue="JUnit.CodeGenerator.main1" />
-        <item itemvalue="JUnit.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +209,9 @@
       <workItem from="1659062696099" duration="6614000" />
       <workItem from="1659078227144" duration="2334000" />
       <workItem from="1659080596745" duration="1612000" />
+      <workItem from="1659321582963" duration="2479000" />
+      <workItem from="1659325491315" duration="11361000" />
+      <workItem from="1659347786675" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="7">
       <created>1659062404346</created>

@@ -76,7 +76,7 @@ public class EduCourseController {
         return R.success().data("courseId",id);
     }
 
-    @GetMapping("getCouserInfo/{courseId}")
+    @GetMapping("getCourseById/{courseId}")
     public R getCourseInfo(@PathVariable String courseId){
         CourseInfoVo courseInfoVo = courseService.getCourseInfo(courseId);
         return R.success().data("courseInfoVo",courseInfoVo);
@@ -94,7 +94,7 @@ public class EduCourseController {
         return R.success().data("course",coursePublishVo);
     }
 
-    @PostMapping("publicCourse/{id}")
+    @PostMapping("publishCourse/{id}")
     public R publishCourse(@PathVariable String id){
         EduCourse course = new EduCourse();
         course.setId(id);

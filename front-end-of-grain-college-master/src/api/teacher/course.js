@@ -4,9 +4,9 @@ export default {
 
     /**
      * 添加课程第一步
-     * 
-     * @param {*} courseInfoForm 
-     * @returns 
+     *
+     * @param {*} courseInfoForm
+     * @returns
      */
     addCourseInfo(courseInfoForm) {
         return request({
@@ -18,9 +18,9 @@ export default {
 
     /**
      * 更新课程
-     * 
-     * @param {*} courseInfoForm 
-     * @returns 
+     *
+     * @param {*} courseInfoForm
+     * @returns
      */
     updateCourseInfo(courseInfoForm) {
         return request({
@@ -32,9 +32,9 @@ export default {
 
     /**
      * 根据 ID 查询记录
-     * 
-     * @param {*} courseId 
-     * @returns 
+     *
+     * @param {*} courseId
+     * @returns
      */
     getCourseById(courseId) {
         return request({
@@ -45,9 +45,9 @@ export default {
 
     /**
      * 根据 ID 查询课程详细记录
-     * 
-     * @param {*} courseId 
-     * @returns 
+     *
+     * @param {*} courseId
+     * @returns
      */
     getPublishCourseInfo(courseId) {
         return request({
@@ -58,9 +58,9 @@ export default {
 
     /**
      * 更新课程
-     * 
-     * @param {*} courseId 
-     * @returns 
+     *
+     * @param {*} courseId
+     * @returns
      */
     publishCourse(courseId) {
         return request({
@@ -71,7 +71,7 @@ export default {
 
     /**
      * 查询所有课程信息
-     * @returns 
+     * @returns
      */
     findAllCourse() {
         return request({
@@ -82,11 +82,11 @@ export default {
 
     /**
      * 多条件分页查询课程信息
-     * 
-     * @param {*} current 
-     * @param {*} limit 
-     * @param {*} courseQuery 
-     * @returns 
+     *
+     * @param {*} current
+     * @param {*} limit
+     * @param {*} courseQuery
+     * @returns
      */
     pageCourseCondition(current, limit, courseQuery) {
         return request({
@@ -98,9 +98,9 @@ export default {
 
     /**
      * 删除所有课程信息
-     * 
-     * @param {*} courseId 
-     * @returns 
+     *
+     * @param {*} courseId
+     * @returns
      */
     removeCourseById(courseId) {
         return request({
