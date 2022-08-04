@@ -9,8 +9,10 @@
         <module name="common_util" />
         <module name="serivec_edu" />
         <module name="service_oss" />
+        <module name="service_acl" />
         <module name="service_vod" />
         <module name="service_base" />
+        <module name="service_cms" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,7 +23,9 @@
       <module name="guli_parent" options="-parameters" />
       <module name="serivec_edu" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="service_acl" options="-parameters" />
       <module name="service_base" options="-parameters" />
+      <module name="service_cms" options="-parameters" />
       <module name="service_oss" options="-parameters" />
       <module name="service_vod" options="-parameters" />
     </option>

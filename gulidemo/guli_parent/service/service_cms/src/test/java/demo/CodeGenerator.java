@@ -1,4 +1,4 @@
-package codedemo;
+package demo;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -22,7 +22,7 @@ public class CodeGenerator {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         System.out.println(projectPath);
-        gc.setOutputDir("E:\\guli\\gulidemo\\guli_parent\\service\\serivec_cms" + "/src/main/java");
+        gc.setOutputDir("E:\\guli\\gulidemo\\guli_parent\\service\\service_cms" + "/src/main/java");
         gc.setAuthor("guoguo");
         gc.setOpen(false); //生成后是否打开资源管理器
         gc.setFileOverride(false); //重新生成时文件是否覆盖
@@ -48,7 +48,7 @@ public class CodeGenerator {
 
         // 4、包配置
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName("educms"); //模块名
+        pc.setModuleName("cms"); //模块名
         pc.setParent("com.guo");
         pc.setController("controller");
         pc.setEntity("entity");

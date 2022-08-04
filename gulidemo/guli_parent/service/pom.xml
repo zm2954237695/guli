@@ -17,6 +17,8 @@
         <module>service_vod</module>
         <module>service_acl</module>
         <module>service_cms</module>
+        <module>service_cms</module>
+        <module>service_cms</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

@@ -15,7 +15,10 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.guo.serviceedu.service.EduVideoService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * <p>
@@ -90,5 +93,15 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
        if(rows==0){
            throw new GuliException(20001,"删除失败");
        }
+    }
+
+    @Override
+    @Cacheable(key="'selectCourseList'",value="course")
+    public List<EduCourse> myList() {
+        QueryWrapper<EduCourse> wrapper = new QueryWrapper<>();
+        wrapper.orderByDesc("id");
+        wrapper.last("limit 8");
+        return this.list(wrapper);
+
     }
 }
