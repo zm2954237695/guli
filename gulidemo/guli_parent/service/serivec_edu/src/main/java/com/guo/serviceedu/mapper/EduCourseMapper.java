@@ -3,6 +3,7 @@ package com.guo.serviceedu.mapper;
 import com.guo.serviceedu.entity.EduCourse;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.guo.serviceedu.entity.vo.CoursePublishVo;
+import com.guo.serviceedu.frontVo.CourseWebVo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -17,4 +18,6 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface EduCourseMapper extends BaseMapper<EduCourse> {
         CoursePublishVo getPublishVo(String courseId);
+
+     CourseWebVo getBaseCourseInfo(String courseId);
 }
