@@ -2,34 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f986ad4a-e3fe-4d73-b298-de080219b31b" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/common/common_util/src/main/java/com/guo/commonutil/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/src/main/java/com/guo/msmservice/MsmApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/src/main/java/com/guo/msmservice/controller/MsmController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/src/main/java/com/guo/msmservice/service/MsmService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/src/main/java/com/guo/msmservice/service/impl/MsmServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/src/main/java/com/guo/msmservice/utils/ConstantSmsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/src/main/java/com/guo/msmservice/utils/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_msm/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/java/com/guo/ucenter/UcenterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/java/com/guo/ucenter/controller/UcenterMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/java/com/guo/ucenter/controller/WxApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/java/com/guo/ucenter/entity/vo/LoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/java/com/guo/ucenter/entity/vo/RegisterVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/java/com/guo/ucenter/utils/ConstantWxUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/java/com/guo/ucenter/utils/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_ucenter/src/test/demo/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_order/src/main/java/OrdersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_order/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gulidemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gulidemo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/front/CourseFrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/src/main/java/com/guo/serviceedu/controller/front/CourseFrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/chapter/VideoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/src/main/java/com/guo/serviceedu/entity/chapter/VideoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduCourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/src/main/java/com/guo/serviceedu/mapper/xml/EduCourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/controller/front/TeacherFrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/controller/front/TeacherFrontController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/mapper/EduCourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/mapper/EduCourseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/mapper/xml/EduCourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/mapper/xml/EduCourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/service/EduCourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/service/EduCourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/service/impl/EduCourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/com/guo/serviceedu/service/impl/EduCourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/mapper/EduCourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/serivec_edu/target/classes/mapper/EduCourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_vod/src/main/java/com/guo/vod/controller/VodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_vod/src/main/java/com/guo/vod/controller/VodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_vod/target/classes/com/guo/vod/controller/VodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gulidemo/guli_parent/service/service_vod/target/classes/com/guo/vod/controller/VodController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/course.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +63,8 @@
       <workItem from="1659795301966" duration="1485000" />
       <workItem from="1659882238703" duration="38000" />
       <workItem from="1659882305049" duration="994000" />
+      <workItem from="1659966478317" duration="883000" />
+      <workItem from="1659967731134" duration="1053000" />
     </task>
     <servers />
   </component>

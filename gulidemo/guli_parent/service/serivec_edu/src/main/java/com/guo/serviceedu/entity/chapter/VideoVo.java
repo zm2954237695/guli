@@ -8,5 +8,6 @@ public class VideoVo {
     private String title;
 
     private String id;
+    private String videoSourceId;
 
 }

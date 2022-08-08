@@ -12,7 +12,7 @@ export default {
   //查询所有分类的方法
   getAllSubject() {
     return request({
-      url: '/eduservice/subject/getAllSubject',
+      url: '/eduservice/edu-subject/getAllSubject',
       method: 'get'
     })
   },
